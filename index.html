@@ -11,7 +11,8 @@
     <h2>Kalkspace</h2>
     <h1>Kalkgrow Plantarium</h1>
     <p></p>
-    <img src="https://kalkgrow.s3.amazonaws.com/plant.jpg">
+    <img id="demo" src="https://kalkgrow.s3.amazonaws.com/plant.jpg">
+    <button type="button" onclick="document.getElementById('demo').newImage.src = "https://kalkgrow.s3.amazonaws.com/plant.jpg#" + new Date().getTime();>Click Me!</button>
 </body>
 
 </html>
